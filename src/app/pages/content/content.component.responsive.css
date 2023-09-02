@@ -1,0 +1,38 @@
+@media screen and (max-width: 1200px) {
+  .container__content {
+    font-size: 0.9rem;
+  }
+
+  .content__cover > img {
+    width: 350px;
+    min-width: 350px;
+    height: 200px;
+  }
+
+  .content__description {
+    max-width: 500px;
+  }
+
+  .backButton {
+    font-size: .7rem;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .container__content {
+    font-size: 0.78rem;
+  }
+
+  .content__cover > img {
+    width: 280px;
+    min-width: 280px;
+    height: 170px;
+  }
+
+  .backButton {
+    font-size: .6rem;
+    padding: 5px;
+  }
+}
+

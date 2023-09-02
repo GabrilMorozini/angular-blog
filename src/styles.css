@@ -3,9 +3,14 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  background-color: #111111;
   color:white;
-  font-family: 'Segoe UI';
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  height: 100%;
+  background-image: linear-gradient(130deg,  rgb(0, 1, 61), rgb(70, 0, 64));
 }
 
 a{

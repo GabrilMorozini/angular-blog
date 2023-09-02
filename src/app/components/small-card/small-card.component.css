@@ -1,5 +1,6 @@
 .container__small-card{
-  width: 700px;
+  width: 95%;
+  margin: auto;
   margin-bottom: 15px;
 }
 
@@ -12,6 +13,7 @@
   width: 200px;
   min-width: 200px;
   margin-right: 20px;
+  border-radius: 5px;
 }
 
 .small-card__title {

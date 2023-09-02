@@ -1,12 +1,18 @@
+/* Partes do software Bootstrap Icons são sujeitas à licença MIT (https://github.com/twbs/icons/blob/main/LICENSE). */
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
-.container__menu-bar > ul{
+.container__menu-bar > ul {
   display: flex;
   flex-direction: row;
 }
 
-.container__menu-bar > ul > li{
+.container__menu-bar > ul > li {
   margin-right: 20px;
   list-style: none;
 }
 
+.social:hover {
+  color: gray;
+  transition: 1s;
+}

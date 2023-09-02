@@ -1,0 +1,21 @@
+@media screen and (max-width: 500px) { 
+  .container__menu-bar{
+    font-size: 0.9rem;
+  }
+
+  .container__menu-bar > ul > li {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) { 
+  .container__menu-bar{
+    font-size: 0.8rem;
+  }
+
+  .container__menu-bar > ul > li {
+    margin-right: 7px;
+  }
+}
+
+

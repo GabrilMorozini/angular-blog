@@ -1,0 +1,15 @@
+@media screen and (max-width: 500px) { 
+  .big-card__title > h1  {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .big-card__description > p {
+    font-size: 0.9rem;
+  }
+  
+  .big-card__photo > img{
+    min-width: 300px;
+    border-radius: 5px;
+  } 
+}

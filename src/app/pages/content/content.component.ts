@@ -5,12 +5,13 @@ import {dataFake} from '../../data/dataFake'
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
-  styleUrls: ['./content.component.css']
+  styleUrls: ['./content.component.css','./content.component.responsive.css']
 })
 export class ContentComponent implements OnInit {
   photoCover:string = ""
   contentTitle:string = ""
   contentDescription:string = ""
+  urlProjeto:string = ""
   private id:string | null = "0"
 
   constructor(
@@ -31,6 +32,7 @@ export class ContentComponent implements OnInit {
     this.contentTitle = result.title
     this.contentDescription = result.description
     this.photoCover = result.photoCover
+    this.urlProjeto = result.urlProj
   }
 
 }
